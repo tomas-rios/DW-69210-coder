@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+  header {
+    h2 {
+      font-size: 200%;
+    }
+
+    ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+  }
+
+  .luvre {
+    height: 300px;
+    font-size: 120%;
+    padding-top: 2rem;
+  }
+
+  .presentacion {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .pasillo {
+      width: 90%;
+    }
+
+    .textoPresentacion {
+      padding: 1rem;
+    }
+  }
+
+  .enFamilia,
+  .alLuvre,
+  .contacto .formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .milo,
+  .lisa,
+  .balsa,
+  .esfinge,
+  .richelieu {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .familiaHorarios,
+  .luvreHorarios,
+  .arte,
+  .orillaNilo,
+  .misterios,
+  .giacondo,
+  .venus,
+  .theodore,
+  .mejorar {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .obras,
+  .egipto,
+  .alaRichelieu,
+  .obrasFamosas,
+  .medusa,
+  .diosa,
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario {
+    padding: 1rem;
+  }
+
+  .mapa {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  footer {
+    p {
+      text-align: center;
+      font-size: 70%;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    img {
+      width: 35px;
+      margin: 0 5px;
+    }
+  }
+}

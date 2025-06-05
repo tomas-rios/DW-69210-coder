@@ -1,0 +1,18 @@
+footer {
+  background-color: $azul;
+  width: 100%;
+  font-family: $fuente-merriweather;
+
+  p {
+    color: $gris;
+    font-size: 65%;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .logo {
+    text-align: right;
+  }
+}
